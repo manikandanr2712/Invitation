@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-declare var anime: any;              // declare like this
+declare var anime: any;             
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
