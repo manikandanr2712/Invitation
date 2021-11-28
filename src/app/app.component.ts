@@ -9,7 +9,6 @@ declare var anime: any;
 export class AppComponent {
   title = 'QR';
   ngAfterViewInit(): void {
-    // Wrap every letter in a span
 const textWrapper:any = document.querySelector('.an-1');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
